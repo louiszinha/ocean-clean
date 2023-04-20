@@ -1,0 +1,75 @@
+body{
+    display: inline-block;
+    background: #fff;
+    font-family: 'Jost', sans-serif;
+}
+.logo-um {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 65px;
+    margin: 4px 4px 8px 20px ;
+}
+.imagem {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+}
+.cabecalho {
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    margin: 0 0 4px 0;
+}
+.navegacao {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+.items-nav {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    /*padding: 10px;*/
+    margin: 20px 20px 20px 20px;
+}
+
+.primeiro-conteudo {
+    background: #1CADFF;
+    padding: 40px 0 40px 0;
+    margin: 0 0 10px 0;
+}
+.primeiro-conteudo h1 {
+    color: #fff;
+    text-align: center;
+}
+.segundo-conteudo {
+    background: #fff;
+    padding: 10px 8px 10px 8px;
+    margin: 10px 0 10px 0;
+}
+.segundo-conteudo h2 {
+    color: #1CADFF;
+    text-align: center;
+    margin: 8px;
+}
+.segundo-conteudo p {
+    text-align: center;
+    margin: 0 30px 0 30px;
+}
+.terceiro-conteudo {
+    background: #1CADFF;
+    padding: 30px 8px 60px 8px;
+    margin: 2px 0 2px 0;
+}
+.terceiro-conteudo h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0 0 8px 0;
+}
+.box-terceiro-conteudo {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    width: 250px;
+}
